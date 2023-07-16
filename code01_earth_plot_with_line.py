@@ -15,7 +15,7 @@ theta = np.linspace(0, 2 * np.pi, 150)
 radius = r
 print('Earth Radius=',r,'km')
 a = radius * np.cos(theta)
-b = r+radius * np.sin(theta)
+b = -radius+ radius * np.sin(theta)
 
 
 figure, axes = plt.subplots(1)
